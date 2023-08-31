@@ -298,6 +298,12 @@ height: 40px;
 }
 }
 @media screen and (max-width:500px) {
+#hero-section, #my-list-slider{
+  padding-inline: 10px !important;
+}
+  .containers{
+    padding-inline: 30px !important;
+  }
   .cart-text{
     display: none;
   }
