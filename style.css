@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-header{
-  position: sticky;
-  top:0;
-  z-index: 1;
-}
+
 .nav-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 86px;
   padding-inline: 20px;
+  position: sticky;
+  top:0;
+  z-index: 1;
 }
 
 .vertical-line {
